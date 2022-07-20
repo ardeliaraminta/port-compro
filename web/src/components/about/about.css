@@ -45,12 +45,12 @@
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .about__card:hover{
-    background: transparent;
-    border-color: var(--color-primary-variant);
+    background: #73c4f0;
+    border-color: var(--color-primary2);
     cursor: default;
 
 }

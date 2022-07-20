@@ -26,7 +26,7 @@
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
-    --container-width-ms: 90%;
+    --container-width-sm: 90%;
 
 }
 
@@ -51,8 +51,29 @@ body {
     margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5 {
+det {
+    font-size: 20px;
+    font-weight: lighter;
+    justify-content: left;
+}
+h6 {
+    font-size: 25px;
+    font-weight: 400;
+}
+h5{
+    font-size: 20px;
+}
+h2 {
+    font-size: 30px;
+}
+
+h1, h2, h3, h5 {
     font-weight: 500;
+}
+
+h4 { 
+    font-weight: 500;
+    text-align: justify;
 }
     
 h1{
@@ -61,7 +82,7 @@ h1{
 
 section{
     margin-top: 8rem;
-    height: 100vh;
+    height: 80vh;
 }
 
 section > h2, 

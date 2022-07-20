@@ -3,7 +3,17 @@ import './portfolio.css'
 
 const Portfolio = () => {
   return (
-    <section id='portfolio'> Portfolio </section>
+    <section id='portfolio'> 
+    <h5> Solusi Software Kami</h5>
+    <h2> Portfolio </h2>
+
+    <div className='container portfolio__container'>
+      <article className='portfolio__item'>
+        <div className='portfolio__item-image'></div>
+      </article>
+    </div>
+
+    </section>
   )
 }
 
