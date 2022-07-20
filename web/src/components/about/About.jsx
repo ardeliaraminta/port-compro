@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 import me from '../../assets/ME.jpg'
 import {HiOutlinePuzzle, HiOutlineLightBulb} from 'react-icons/hi'
-import {BsFillPersonCheckFill} from 'react-icons/bs'
+import {BsFillPersonCheckFill, BsPersonLinesFill} from 'react-icons/bs'
 import {GrWorkshop} from 'react-icons/gr'
 import {GiTeamUpgrade} from 'react-icons/gi'
 import {IoThumbsUpOutline} from 'react-icons/io5'
@@ -25,34 +25,28 @@ const About = () => {
       <div className='about__content'>
         <div className='about__cards'>
           <article className='about__card'>
-            <HiOutlinePuzzle className='about__icon'/>
-            <h5> Integritas </h5>
-            <small> ... </small>
+            <HiOutlinePuzzle className='about__icon' color='white'/>
+            <h6> Integritas </h6>
           </article>
           <article className='about__card'>
-            <BsFillPersonCheckFill className='about__icon'/>
-            <h5> Profesional </h5>
-            <small> ... </small>
+            <BsFillPersonCheckFill className='about__icon' color='white'/>
+            <h6> Profesional </h6>
           </article>
           <article className='about__card'>
-            <GrWorkshop className='about__icon'/>
-            <h5> Bertanggung Jawab </h5>
-            <small> ... </small>
+            <BsPersonLinesFill className='about__icon' color='white'/>
+            <h6> Bertanggung Jawab </h6>
           </article>
           <article className='about__card'>
-            <HiOutlineLightBulb className='about__icon'/>
-            <h5> Inovasi </h5>
-            <small> ... </small>
+            <HiOutlineLightBulb className='about__icon' color='white'/>
+            <h6> Inovasi </h6>
           </article>
           <article className='about__card'>
-            <GiTeamUpgrade className='about__icon'/>
-            <h5> Kerjasama Tim </h5>
-            <small> ... </small>
+            <GiTeamUpgrade className='about__icon' color='white'/>
+            <h6> Kerjasama Tim </h6>
           </article>
           <article className='about__card'>
-            <IoThumbsUpOutline className='about__icon'/>
-            <h5>Kepuasan Klien </h5>
-            <small> ... </small>
+            <IoThumbsUpOutline className='about__icon' color='white'/>
+            <h6>Kepuasan Klien </h6>
           </article>
         </div>
         <p>
