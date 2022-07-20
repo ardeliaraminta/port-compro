@@ -1,6 +1,22 @@
 import React from 'react'
 import './portfolio.css'
 import koperasi from '../../assets/koperasi.jpg'
+
+const data = [
+  {
+    id:1,
+    image: koperasi ,
+    title: 'Software Manajemen Koperasi',
+    
+  }
+]
+
+
+
+
+
+
+
 const Portfolio = () => {
   return (
     <section id='portfolio'> 
