@@ -38,6 +38,11 @@ header{
     transform:rotate(90deg);
     font-weight: 200;
     font-size: 0.9rem;
+    color: black;
+}
+
+.scroll_down:hover{
+    color: rgb(114, 112, 112);
 }
 
 @media screen and (max-width: 1024px){

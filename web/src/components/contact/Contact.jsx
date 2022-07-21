@@ -3,8 +3,19 @@ import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {BsPinMap} from 'react-icons/bs'
 import {AiOutlinePhone} from 'react-icons/ai'
+import { useRef } from 'react'
+import emailjs from 'emailjs-com'
+import barcode from '../../assets/barcode.jpg'
 
 const Contact = () => {
+
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_u45845n','template_oqq5f4q', form.current, 'ZFqzZxl7PV_upedsd')
+    e.target.reset()
+  };
   return (
     <section id="contact">
       <h5> Get in touch </h5>
@@ -31,7 +42,7 @@ const Contact = () => {
             <a href="sms:08212827777"> Kirim pesan </a>
             </article>
         </div>
-        <form action="">
+        <form ref ={form} onSubmit ={sendEmail}>
           <input type="text" name= 'name' placeholder="Nama Lengkap" required/>
           <input type="email" name= 'name' placeholder="Email" required/>
           <textarea name="message" rows="7" placeholder="Pesan" required/><textarea/>

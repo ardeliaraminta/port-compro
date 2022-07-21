@@ -15,7 +15,7 @@
 }
 
 :root {
-    --color-bg: white(159, 203, 233, 0.514);
+    --color-bg: white
     --color-bg-variant:#a11b1b;
     --color-primary: black;
     --color-primary2:#38ADEC;
@@ -30,6 +30,9 @@
 
 }
 
+.permalinks {
+    color: black;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -52,6 +55,10 @@ body {
     
 }
 
+smol {
+    font-size: 13px;
+    color: black;
+}
 det {
     font-size: 20px;
     font-weight: lighter;
@@ -103,7 +110,7 @@ section > h2 {
 }
 
 a {
-    color: white;
+    color: black;
 
 
 }

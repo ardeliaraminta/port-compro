@@ -19,6 +19,7 @@ const About = () => {
       <div className='about__me'>
         <div className='about__me-image'>
         <img src = {me} alt = "About Image"/>
+        <span className="bg-[#273250] absolute h-[75%] w-[70%] rounded-bl-[95%]"/>
         </div>
       </div>
 
