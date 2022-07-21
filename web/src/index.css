@@ -15,7 +15,7 @@
 }
 
 :root {
-    --color-bg: white;
+    --color-bg: white(159, 203, 233, 0.514);
     --color-bg-variant:#a11b1b;
     --color-primary: black;
     --color-primary2:#38ADEC;
@@ -49,6 +49,7 @@ body {
 .container {
     width: var(--container-width-lg);
     margin: 0 auto;
+    
 }
 
 det {
@@ -102,8 +103,7 @@ section > h2 {
 }
 
 a {
-    color: var(--color-primary);
-    transition: var(--transition);
+    color: white;
 
 
 }
@@ -125,14 +125,14 @@ a:hover{
 }
 
 .btn:hover{
-    background: #2B2D2F;
+    background: #303131;
     color: white ;
     border-color: transparent;
 }
 
 .btn-primary {
     background: var(--color-primary);
-    color: var(--color-bg)
+    color: white
 }
 
 img{
