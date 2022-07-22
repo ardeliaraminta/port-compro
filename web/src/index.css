@@ -1,8 +1,4 @@
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,300;0,400;1,300&display=swap');
 *{
     margin:0;
@@ -15,7 +11,7 @@
 }
 
 :root {
-    --color-bg: white
+    --color-bg: white;
     --color-bg-variant:#a11b1b;
     --color-primary: black;
     --color-primary2:#38ADEC;
@@ -106,7 +102,7 @@ section > h2 {
 }
 
 .text-light{
-    color:var(--color-light)
+    color:var(--color-light);
 }
 
 a {
@@ -139,7 +135,7 @@ a:hover{
 
 .btn-primary {
     background: var(--color-primary);
-    color: white
+    color: white;
 }
 
 img{
@@ -159,7 +155,7 @@ img{
     }
 
     section > h2 {
-        margin-top:6rem
+        margin-top:6rem;
     }
 
 
@@ -172,7 +168,7 @@ img{
     }
 
     section > h2 {
-        margin-top:2rem
+        margin-top:2rem;
     }
 
 
