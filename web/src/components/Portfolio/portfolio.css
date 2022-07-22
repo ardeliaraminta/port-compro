@@ -1,47 +1,77 @@
-.portfolio__container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
-}
-.portfolio__item{
-    background: #a11b1b;
-    padding: 1.3rem;
-    border-radius: 2rem;
-    border: 1px solid transparent; 
-    transition: var(--transition);
 
+.container.services__container{
+    width: 50%;
+    color: black;
+    padding-bottom: 4rem;
 }
 
-.portfolio__item:hover{
-    border-color: #a11b1b; 
-    background: #D06464;
+.client__avatar{
+    width: 9rem;
+    overflow: hidden;
+    border-radius: 60%;
+    margin: 0 auto 1rem;
+    border: 0.4 rem solid var(--color-bg-variant);
+    font-size: 25px;
 
 }
 
-.portfolio__item h3 { 
-    margin: 1.2, 0.2rem; 
-}
-
-.portfolio__item-cta{
+.picture {
+    width: 80%;
+    text-align: right;
+    justify-content: left;
     display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-right: 1rem;
+
+    
 }
 
-@media screen and (max-width: 1024px){
-    .portfolio__container{
-        grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
+.services > h5 {
+    background:#38ADEC;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    user-select: none; 
+ }
+ 
 
+.services{
+   background:#38ADEC;
+   text-align: justify;
+   font-size: 18px;
+   color: white;
+   font-weight: 500;
+   padding: 2rem;
+   user-select: none; 
+}
+
+.details__review{
+    color: white;
+    font-weight: 300;
+    display: block;
+    width: 80%;
+    margin: 0.8rem auto 0;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    background: var(--color-primary)
+}
+@media screen and (max-width: 1024px){
+    .container.services__container{
+        width: 60%;
     }
-   
+
 }
 
 @media screen and (max-width: 600px){
-    .portfolio__container{
-        grid-template-columns: 1fr;
-        gap: 1rem;
-        
+    .container.services__container{
+        width: var(--container-width-sm);
+    }
+
+    .details__review{
+        width: var(--container-width-sm);
     }
 
 }
