@@ -39,7 +39,6 @@ const Contact = () => {
            <AiOutlinePhone  className='contact__option-icon'/>
             <h6> Telpon </h6>
             <h5>(+62)8212827777</h5>
-            <a href="sms:08212827777"> Kirim pesan </a>
             </article>
         </div>
         <form ref ={form} onSubmit ={sendEmail}>
