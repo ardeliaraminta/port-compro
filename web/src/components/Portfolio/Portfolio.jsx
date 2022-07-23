@@ -47,7 +47,7 @@ const data = [
 
 const Portfolio = () => {
   return (
-   <section id = 'strength'>
+   <section id = 'portfolio'>
     <h5> Proyek Kami </h5>
     <h2> Portfolio </h2>
 
