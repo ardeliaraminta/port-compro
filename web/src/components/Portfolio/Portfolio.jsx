@@ -28,8 +28,7 @@ const data = [
   {
     avatar: unidalog, 
     title: 'UNIDALOG',
-    details :  "UNIDALOG merupakan perangkat elektronik yang mampu untuk mengambil data-data pengukuran dari sensor, menyimpan data-data tersebut ke memori, dan selanjutnya mengirimkan data-data tersebut ke Data Base Server secara “remote”.",
-    details2 : "UNIDALOG merupakan Data Logger multi fungsi, yang dapat dimanfaatkan untuk berbagaimacam aplikasi yang terkait dengan akuisisi data dan telemetri.",
+    details :  "UNIDALOG merupakan perangkat elektronik yang mampu untuk mengambil data-data pengukuran dari sensor, menyimpan data-data tersebut ke memori, dan selanjutnya mengirimkan data-data tersebut ke Data Base Server secara “remote”. UNIDALOG merupakan Data Logger multi fungsi, yang dapat dimanfaatkan untuk berbagaimacam aplikasi yang terkait dengan akuisisi data dan telemetri.",
   },
   {
   avatar: uni, 
@@ -59,9 +58,9 @@ pagination={{ clickable: true }}>
         data.map(({avatar, title, details, details2, detail, pic2}, index) =>{
           return(
             <SwiperSlide key={index} className = "services">
-              <div className = 'client__avatar'>
+              <div className='avatar'>
                 <img src={avatar}/>
-              </div>
+                </div>
               <h5 className='details'>{title}</h5>
               <small className='details__review'>{details}</small>
               <small className='details__review'>{details2}</small>

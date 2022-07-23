@@ -25,7 +25,7 @@ const data = [
   },
   {
   avatar: itout, 
-  title: 'IT Oursourcing',
+  title: 'IT Outsourcing',
   details :  "Kami menawarkan layanan pengalihdayaan TI dengan personel yang berpengalaman, terdidik, dan bersertifikat untuk berbagai skala bisnis Anda di berbagai lokasi di Indonesia."   
   }
 ]
@@ -35,7 +35,7 @@ const Strength = () => {
   return (
    <section id = 'strength'>
     <h5>Our Services </h5>
-    <h2> Layanan Kami </h2>
+    <h2> Layanan dan Jasa </h2>
 
     <Swiper className='container services__container'  
 modules = {[Pagination]}

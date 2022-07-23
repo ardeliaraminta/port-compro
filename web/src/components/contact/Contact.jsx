@@ -18,7 +18,7 @@ const Contact = () => {
   };
   return (
     <section id="contact">
-      <h5> Get in touch </h5>
+      <h5>  Contact Us </h5>
       <h2> Kontak Kami </h2>
 
 
@@ -28,7 +28,7 @@ const Contact = () => {
             <MdOutlineEmail  className='contact__option-icon'/>
             <h6> Email </h6>
             <h5> infotekmatitb@gmail.com </h5>
-            <a href='mailto:infotekmatitb@gmail.com'> Kirim surel </a>
+            <a href='mailto:infotekmatitb@gmail.com'></a>
           </article>
           <article className='contact__option'>
           <BsPinMap  className='contact__option-icon'/>
@@ -42,9 +42,9 @@ const Contact = () => {
             </article>
         </div>
         <form ref ={form} onSubmit ={sendEmail}>
-          <input type="text" name= 'name' placeholder="Nama Lengkap" required/>
+          <input type="text" name= 'name' placeholder="Full name/ Nama Lengkap" required/>
           <input type="email" name= 'name' placeholder="Email" required/>
-          <textarea name="message" rows="7" placeholder="Pesan" required/><textarea/>
+          <textarea name="message" rows="7" placeholder="Message/ Pesan" required/><textarea/>
           <button type='submit' className='btn btn-primary'> Kirim </button>
         </form>
       </div>

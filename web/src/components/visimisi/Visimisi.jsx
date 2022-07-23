@@ -11,42 +11,30 @@ import {IoThumbsUpOutline} from 'react-icons/io5'
 const Visimisi = () => {
   return (
     <section id='visimisi'>
-      <h5> Perusahaan </h5>
+      <h5> Vision and Mission </h5>
       <h2> Visi dan Misi </h2>
 
     
-      <div className='container services__container'>
-      <article className='service'>
-        <div className='service__head'>
+      <div className='container experience__container'>
+        <div className='experience__frontend'>
           <h3> Visi </h3>
+        <div className='"experience__content'>
+            <article className='experience__details'>
+            <h3> Menjadi perusahaan IT Solusi terpercaya yang mengutamakan konsistensi dalam kualitas dan layanan sempurna dengan reputasi global </h3>
+            </article>
+            </div>
+            </div>
+        <div className='experience__backend'>
+          <h3> Misi </h3>
+          <div className='"experience__content'>
+            <article className='experience__details'>
+            <h3> Fokus pada solisi komprehensif dengan inovasi produk terbaru dan layanan sempurna sebagai bentuk hubungan jangka panjang yang berkelanjutan </h3>
+            </article>
+            </div>
+          </div>
+      </div>
+      </section>
 
-          <ul className='service__list'>
-            <li> 
-            <FaRegEye className='service__list-icon'/>
-            <p> Menjadi perusahaan IT Solusi terpercaya yang
-mengutamakan konsistensi dalam kualitas dan
-layanan sempurna dengan reputasi global. </p>
-            </li>
-          </ul>
-          </div>
-      </article>
-      <article className='service'>
-        <div className='service__head'>
-          <h3>Misi </h3>
-          <ul className='service__list'>
-            <li> 
-            <HiOutlineLightBulb className='service__list-icon'/>
-            <p> Fokus pada solisi komprehensif dengan inovasi
-produk terbaru dan layanan sempurna sebagai
-bentuk hubungan jangka panjang yang
-berkelanjutan
- </p>
-            </li>
-          </ul>
-          </div>
-      </article>
-    </div>
-    </section>
   )
 }
-export default Visimisi
+export default Visimisi;

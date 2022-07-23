@@ -5,12 +5,10 @@
     padding-bottom: 4rem;
 }
 
-.client__avatar{
-    width: 9rem;
+.avatar{
+    width: 30%;
     overflow: hidden;
-    border-radius: 60%;
     margin: 0 auto 1rem;
-    border: 0.4 rem solid var(--color-bg-variant);
     font-size: 25px;
 
 }
