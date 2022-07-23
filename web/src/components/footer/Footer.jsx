@@ -19,8 +19,6 @@ const Footer = () => {
 
       <div className='footer__social'>
         <a href='mailto:infotekmatitb@gmail.com'><MdOutlineEmail/></a>
-        <a href=''><BsPinMap/></a>
-        <a href='mailto:infotekmatitb@gmail.com'><AiOutlinePhone/></a>
       </div>
 
       <div className='footer__copyright'>
