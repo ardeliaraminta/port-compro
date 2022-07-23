@@ -64,12 +64,13 @@
 @media screen and (max-width: 600px){
     .experience__container{
         grid-template-columns: 1fr ;
-        width: 50%;
+        gap: 1rem;
+        width: 10%;
         height: 80%;
     }
 
     .experience__container > div {
-        width: 50%;
+        width: 100%;
         padding: 2rem;
         margin: 0 auto;
     }
