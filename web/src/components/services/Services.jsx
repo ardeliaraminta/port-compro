@@ -16,56 +16,53 @@ const Services = () => {
 
     <div className='container services__container'>
       <article className='service'>
-        <div className='service__name'>
-        </div>
-        
-        <div className='about__content'>
-        <div className='about__cards'>
-          <article className='about__card'>
-            <HiOutlinePuzzle className='about__icon'/>
-            <h6> Service Management System </h6>
-            <det> Kami menyederhanakan proses penanganan masalah bagi pelanggan </det>
-          </article>
-          <article className='about__card'>
-            <BsFillPersonCheckFill className='about__icon'/>
-            <h6> Service point </h6>
-            <det> Kami memiliki lokasi layanan di berberapa kota di Indonesia </det>
-          </article>
-          <article className='about__card'>
-            <GrWorkshop className='about__icon'/>
-            <h6> Great Support </h6>
-            <det> Respon cepat adalah bagian dari komitmen kami untuk memberikan layanan terbaik</det>
-          </article>
-          <article className='about__card'>
-            <HiOutlineLightBulb className='about__icon'/>
-            <h6> Focus on Solution </h6>
-            <det> Kami selalu berpikir untuk memberikan solusi terbaik dan tepat untuk kebutuhan perusahaan anda </det>
-          </article>
-          <article className='about__card'>
-            <GiTeamUpgrade className='about__icon'/>
-            <h6> Have The Best Partners </h6>
-            <det> Kami bermitra dengan beberapa perusahaaan besar dan termuka </det>
-          </article>
-          <article className='about__card'>
-            <IoThumbsUpOutline className='about__icon'/>
-            <h6> Professional </h6>
-            <det> Kami memiliki sumebr daya manusia yang profesional dan berdedikasi tinggi dan bersetifikat </det>
-          </article>
-        </div>
-        </div>
+        <div className='service__head'>
+          <h3> Service Management System and Have The Best Partners  </h3>
 
-
-
-
-
+          <ul className='service__list'>
+            <li> 
+            <HiOutlinePuzzle className='service__list-icon'/>
+            <p> Kami menyederhanakan proses penanganan masalah bagi pelanggan </p>
+            </li>
+            <li> 
+            <HiOutlinePuzzle className='service__list-icon'/>
+            <p> Kami bermitra dengan beberapa perusahaaan besar dan termuka  </p>
+            </li>
+          </ul>
+          </div>
+      </article>
+      <article className='service'>
+        <div className='service__head'>
+          <h3> Service point and Great Support </h3>
+          <ul className='service__list'>
+            <li> 
+            <HiOutlinePuzzle className='service__list-icon'/>
+            <p> Kami memiliki lokasi layanan di berberapa kota di Indonesia </p>
+            </li>
+            <li> 
+            <HiOutlinePuzzle className='service__list-icon'/>
+            <p>  Respon cepat adalah bagian dari komitmen kami untuk memberikan layanan terbaik</p>
+            </li>
+          </ul>
+          </div>
+      </article>
+      <article className='service'>
+        <div className='service__head'>
+          <h3> Fokus kepada Solusi dan Profesional </h3>
+          <ul className='service__list'>
+            <li> 
+            <HiOutlinePuzzle className='service__list-icon'/>
+            <p>Kami selalu berpikir untuk memberikan solusi terbaik dan tepat untuk kebutuhan perusahaan anda </p>
+            </li>
+            <li> 
+            <HiOutlinePuzzle className='service__list-icon'/>
+            <p>  Kami memiliki sumber daya manusia yang profesional dan berdedikasi tinggi dan bersetifikat </p>
+            </li>
+          </ul>
+          </div>
       </article>
 
-
-
-
     </div>
-
-
     </section>
   )
 }
