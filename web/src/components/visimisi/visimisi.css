@@ -65,7 +65,8 @@
     .experience__container{
         grid-template-columns: 1fr ;
         gap: 1rem;
-        width: 100%;
+        width: 50%;
+        height: 80%;
     }
 
     .experience__container > div {
