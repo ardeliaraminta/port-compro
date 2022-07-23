@@ -15,7 +15,7 @@ import 'swiper/css/pagination';
 const data = [
   {
     avatar: itmanage, 
-    title: 'IT Manage Services',
+    title: 'IT Managed Services',
     details :  "Kami menyediakan layanan pengelolaan untuk semua perangkat dan infrastruktur TI dari bisnis skala kecil hingga besar dengan layanan lokasi kami tersebar di berbagai wilayah."   
   },
   {
