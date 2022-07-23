@@ -20,8 +20,8 @@ const data = [
   },
   {
     avatar: maintain, 
-    title: 'Maintanance Services',
-    details :  "Dengan identitas kami sebagai perusahaan solusi TI satu atap dan jaringan luas di berbagai provinsi di Indonesia, kami menawarkan solusi pemeliharaan dan perbaikan dalam hal perangkat keras, perangkat keras, pernagkat lunak dan integrator sehingga bisnis utama anda tidak terganggu."   
+    title: 'Maintenance Services',
+    details :  "Dengan identitas kami sebagai perusahaan solusi TI satu atap dan jaringan luas di berbagai provinsi di Indonesia, kami menawarkan solusi pemeliharaan dan perbaikan dalam hal perangkat keras, perangkat lunak dan integrator sehingga bisnis utama anda tidak terganggu."   
   },
   {
   avatar: itout, 
