@@ -23,27 +23,23 @@ const data = [
     avatar: app, 
     title: 'Software Managemen Koperasi Berbasis Online Sistem IoT',
     details :  "Kami menyediakan layanan pengelolaan untuk semua perangkat dan infrastruktur TI dari bisnis skala kecil hingga besar dengan layanan lokasi kami tersebar.",
-    pic2 : fitur,   
+    
   },
   {
     avatar: maintain, 
     title: 'UNIDALOG',
     details :  "UNIDALOG merupakan perangkat elektronik yang mampu untuk mengambil data-data pengukuran dari sensor, menyimpan data-data tersebut ke memori, dan selanjutnya mengirimkan data-data tersebut ke Data Base Server secara “remote”.",
     details2 : "UNIDALOG merupakan Data Logger multi fungsi, yang dapat dimanfaatkan untuk berbagaimacam aplikasi yang terkait dengan akuisisi data dan telemetri.",
-    detail : unidalog,
-    pic2: unidalog2
   },
   {
   avatar: itout, 
   title: 'Autonomous Weather Station',
   details :  "Autonomous Weather Station, merupakan perangkat elektronik yang berfungsi untuk melakukan pemantauan, serta mengirimkan data-data pemantauan cuaca ke Database Server melalui jaringan GSM / Internet",
-  detail: uni
   },
   {
     avatar: itout, 
     title: 'APLIKASI KOPERASI: Litebrain Koperasi Simpan Pinjam',
     details :  "Disesuaikan dengan kebutuhan Aplikasi, Seperti Menu Simpan Pinjam, Menu daftar anggota (Tambah/Hapus), Menu Pengaturan, Menu Menu lainya dapat disesuaikan dengan kebutuhan User.",
-    pic2 : simpan
   }
 ]
 
