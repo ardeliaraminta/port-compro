@@ -57,7 +57,7 @@
         width: 100%;
         padding: 2rem;
         margin: 0 auto;
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 
@@ -65,8 +65,7 @@
     .experience__container{
         grid-template-columns: 1fr ;
         gap: 1rem;
-        width: 10%;
-        height: 80%;
+        width: 50%;
     }
 
     .experience__container > div {
