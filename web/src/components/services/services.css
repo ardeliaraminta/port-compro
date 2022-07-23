@@ -103,7 +103,7 @@
     .about__cards {
         grid-template-columns: 1fr ;
         gap: 1rem;
-        width: 90%;
+        width: 100%;
     }
 
     .about__content{
