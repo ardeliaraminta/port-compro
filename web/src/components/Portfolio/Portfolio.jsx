@@ -2,8 +2,8 @@ import React from 'react'
 import './portfolio.css'
 import simpan from '../../assets/simpan.jpg'
 import maintain from '../../assets/maintain.jpg'
-import fitur from '../../assets/fitur.jpg'
-import itout from '../../assets/itout.jpg'
+import kop from '../../assets/kop.jpg'
+import kope from '../../assets/kope.jpg'
 import app from '../../assets/app.jpg'
 import unidalog from '../../assets/unidalog.jpg'
 import last from '../../assets/last.jpg'
@@ -23,21 +23,22 @@ const data = [
     avatar: app, 
     title: 'Software Managemen Koperasi Berbasis Online Sistem IoT',
     details :  "Kami menyediakan layanan pengelolaan untuk semua perangkat dan infrastruktur TI dari bisnis skala kecil hingga besar dengan layanan lokasi kami tersebar.",
+    pic2 : kope
     
   },
   {
-    avatar: maintain, 
+    avatar: unidalog, 
     title: 'UNIDALOG',
     details :  "UNIDALOG merupakan perangkat elektronik yang mampu untuk mengambil data-data pengukuran dari sensor, menyimpan data-data tersebut ke memori, dan selanjutnya mengirimkan data-data tersebut ke Data Base Server secara “remote”.",
     details2 : "UNIDALOG merupakan Data Logger multi fungsi, yang dapat dimanfaatkan untuk berbagaimacam aplikasi yang terkait dengan akuisisi data dan telemetri.",
   },
   {
-  avatar: itout, 
+  avatar: uni, 
   title: 'Autonomous Weather Station',
-  details :  "Autonomous Weather Station, merupakan perangkat elektronik yang berfungsi untuk melakukan pemantauan, serta mengirimkan data-data pemantauan cuaca ke Database Server melalui jaringan GSM / Internet",
+  details :  "Autonomous Weather Station, merupakan perangkat elektronik yang berfungsi untuk melakukan pemantauan, serta mengirimkan data-data pemantauan cuaca ke Database Server melalui jaringan GSM / Internet. Data-data hasil pemantauan cuaca dapat dimanfaatkan untuk membangun berbagai sistem informasi, prediksi dan Early Warning System, antara lain : Sistem Prediksi Cuaca, Early Warning System Banjir / Tsunami, Sistem Informasi Cuaca/Tinggi Muka AirSungai/Pasang Surut Air Laut, Mendukung Decision Support System"
   },
   {
-    avatar: itout, 
+    avatar: kop, 
     title: 'APLIKASI KOPERASI: Litebrain Koperasi Simpan Pinjam',
     details :  "Disesuaikan dengan kebutuhan Aplikasi, Seperti Menu Simpan Pinjam, Menu daftar anggota (Tambah/Hapus), Menu Pengaturan, Menu Menu lainya dapat disesuaikan dengan kebutuhan User.",
   }
