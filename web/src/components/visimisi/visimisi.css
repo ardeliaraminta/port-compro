@@ -45,7 +45,8 @@
     color: var(--color-primary);
 
 }
-
+/* 
+mobile responsive */
 @media screen and (max-width: 1024px){
     .experience__container{
         grid-template-columns: 1fr ;
