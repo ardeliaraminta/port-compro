@@ -33,7 +33,7 @@ const data = [
   {
   avatar: uni, 
   title: 'Autonomous Weather Station',
-  details :  "Autonomous Weather Station, merupakan perangkat elektronik yang berfungsi untuk melakukan pemantauan, serta mengirimkan data-data pemantauan cuaca ke Database Server melalui jaringan GSM / Internet. Data-data hasil pemantauan cuaca dapat dimanfaatkan untuk membangun berbagai sistem informasi, prediksi dan Early Warning System, antara lain : Sistem Prediksi Cuaca, Early Warning System Banjir / Tsunami, Sistem Informasi Cuaca/Tinggi Muka AirSungai/Pasang Surut Air Laut, Mendukung Decision Support System"
+  details :  "Autonomous Weather Station, merupakan perangkat elektronik yang berfungsi untuk melakukan pemantauan, serta mengirimkan data-data pemantauan cuaca ke Database Server melalui jaringan GSM / Internet."
   },
   {
     avatar: kop, 

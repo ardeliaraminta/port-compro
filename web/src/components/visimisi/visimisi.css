@@ -49,12 +49,26 @@
 @media screen and (max-width: 1024px){
     .experience__container{
         grid-template-columns: 1fr ;
-        gap: 3rem;
+        gap: 2rem;
         width: 30%;
     }
 
     .experience__container > div {
         width: 60%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .experience__container{
+        grid-template-columns: 1fr ;
+        gap: 2rem;
+        width: 10%;
+    }
+
+    .experience__container > div {
+        width: 30%;
         padding: 2rem;
         margin: 0 auto;
     }
