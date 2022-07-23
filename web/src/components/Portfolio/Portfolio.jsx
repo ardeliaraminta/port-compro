@@ -22,7 +22,7 @@ const data = [
   {
     avatar: app, 
     title: 'Software Managemen Koperasi Berbasis Online Sistem IoT',
-    details :  "Kami menyediakan layanan pengelolaan untuk semua perangkat dan infrastruktur TI dari bisnis skala kecil hingga besar dengan layanan lokasi kami tersebar.",
+    details :  "Disesuaikan dengan kebutuhan Aplikasi, Seperti Menu Simpan Pinjam, Menu Toko (Bayar dan Belanja), Menu Deposit, Menu daftar anggota (Tambah/Hapus), Menu Pengaturan, Menu Penukaran Voucer, Menu Pembagian SHU, dan Menu lainya",
     pic2 : kope
     
   },

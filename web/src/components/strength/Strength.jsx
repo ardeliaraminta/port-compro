@@ -15,8 +15,8 @@ import 'swiper/css/pagination';
 const data = [
   {
     avatar: itmanage, 
-    title: 'It Manage Services',
-    details :  "Kami menyediakan layanan pengelolaan untuk semua perangkat dan infrastruktur TI dari bisnis skala kecil hingga besar dengan layanan lokasi kami tersebar."   
+    title: 'IT Manage Services',
+    details :  "Kami menyediakan layanan pengelolaan untuk semua perangkat dan infrastruktur TI dari bisnis skala kecil hingga besar dengan layanan lokasi kami tersebar di berbagai wilayah."   
   },
   {
     avatar: maintain, 
@@ -26,7 +26,7 @@ const data = [
   {
   avatar: itout, 
   title: 'IT Oursourcing',
-  details :  "Kami menawarkan layanan pengalihdayaan TI dengan personel yang berpengalaman, terdidik, dan bersetifikat untuk berbagai skala bisnis Anda di berbagai lokasi di Indonesia."   
+  details :  "Kami menawarkan layanan pengalihdayaan TI dengan personel yang berpengalaman, terdidik, dan bersertifikat untuk berbagai skala bisnis Anda di berbagai lokasi di Indonesia."   
   }
 ]
 
