@@ -1,6 +1,12 @@
 import React from 'react'
 import './visimisi.css'
 import {FaRegEye} from 'react-icons/fa'
+import {BsBookmarkCheckFill} from 'react-icons/bs'
+import {HiOutlinePuzzle, HiOutlineLightBulb} from 'react-icons/hi'
+import {BsFillPersonCheckFill} from 'react-icons/bs'
+import {GrWorkshop} from 'react-icons/gr'
+import {GiTeamUpgrade} from 'react-icons/gi'
+import {IoThumbsUpOutline} from 'react-icons/io5'
  
 const Visimisi = () => {
   return (
@@ -8,26 +14,39 @@ const Visimisi = () => {
       <h5> Perusahaan </h5>
       <h2> Visi dan Misi </h2>
 
-      <div className='container experience__container'>
-        <div className='experience__frontend'>
+    
+      <div className='container services__container'>
+      <article className='service'>
+        <div className='service__head'>
           <h3> Visi </h3>
-          <div className='"experience__content'>
-            <article className='experience__details'>
-            <h3> Menjadi perusahaan IT Solusi terpercaya yang mengutamakan konsistensi dalam kualitas dan layanan sempurna dengan reputasi global </h3>
-            </article>
+
+          <ul className='service__list'>
+            <li> 
+            <FaRegEye className='service__list-icon'/>
+            <p> Menjadi perusahaan IT Solusi terpercaya yang
+mengutamakan konsistensi dalam kualitas dan
+layanan sempurna dengan reputasi global. </p>
+            </li>
+          </ul>
           </div>
-        </div>
-        <div className='experience__backend'>
-          <h3> Misi </h3>
-          <div className='"experience__content'>
-            <article className='experience__details'>
-            <h3> Fokus pada solisi komprehensif dengan inovasi produk terbaru dan layanan sempurna sebagai bentuk hubungan jangka panjang yang berkelanjutan </h3>
-            </article>
+      </article>
+      <article className='service'>
+        <div className='service__head'>
+          <h3>Misi </h3>
+          <ul className='service__list'>
+            <li> 
+            <HiOutlineLightBulb className='service__list-icon'/>
+            <p> Fokus pada solisi komprehensif dengan inovasi
+produk terbaru dan layanan sempurna sebagai
+bentuk hubungan jangka panjang yang
+berkelanjutan
+ </p>
+            </li>
+          </ul>
           </div>
-        </div>
-      </div>
+      </article>
+    </div>
     </section>
   )
 }
-
 export default Visimisi
