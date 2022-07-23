@@ -56,7 +56,7 @@ const Services = () => {
             </li>
             <li> 
             <HiOutlinePuzzle className='service__list-icon'/>
-            <p>  Kami memiliki sumber daya manusia yang profesional dan berdedikasi tinggi dan bersetifikat </p>
+            <p>  Kami memiliki sumber daya manusia yang profesional dan berdedikasi tinggi dan bersertifikat </p>
             </li>
           </ul>
           </div>
