@@ -7,6 +7,7 @@ import Nav from './components/nav/Nav'
 import Portfolio from './components/Portfolio/Portfolio'
 import Services from './components/services/Services'
 import Strength from './components/strength/Strength'
+import Visimisi from './components/visimisi/Visimisi'
 import './index.css'
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
     <Header/>
     <Nav/>
     <About/>
+    <Visimisi/>
     <Services/>
     <Strength/>
     <Portfolio/>
