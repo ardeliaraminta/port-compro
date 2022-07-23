@@ -18,7 +18,6 @@ const Footer = () => {
       </ul>
 
       <div className='footer__social'>
-        <a href='mailto:infotekmatitb@gmail.com'><MdOutlineEmail/></a>
       </div>
 
       <div className='footer__copyright'>
